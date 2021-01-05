@@ -128,4 +128,11 @@ public class MyLinkedList {
         return temp;
     }
 
+    public INode getHead() {
+        return head;
+    }
+
+    public INode getTail() {
+        return tail;
+    }
 }
