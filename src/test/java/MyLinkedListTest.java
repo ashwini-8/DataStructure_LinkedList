@@ -85,5 +85,20 @@ public class MyLinkedListTest {
                 myLinkedList.head.getNext().equals(mySecondNode);
         Assert.assertTrue(result);
     }
-    
+
+    @Test
+    public void given3NumbersShouldSearchElementOfSequenceAndShouldPassLinkedListResult() {
+        MyNode<Integer> myfirstNode = new MyNode<Integer>(56);
+        MyNode<Integer> mySecondNode = new MyNode<Integer>(30);
+        MyNode<Integer> myThirdNode = new MyNode<Integer>(70);
+        MyLinkedList myLinkedList = new MyLinkedList();
+        myLinkedList.append(myfirstNode);
+        myLinkedList.append(mySecondNode);
+        myLinkedList.append(myThirdNode);
+        myLinkedList.search(mySecondNode);
+        myLinkedList.printMyNode();
+        boolean result = myLinkedList.head.equals(myfirstNode) &&
+                myLinkedList.head.getNext().equals(mySecondNode);
+        Assert.assertTrue(result);
+    }
 }

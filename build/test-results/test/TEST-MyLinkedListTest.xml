@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-05T06:23:20" hostname="ASHWINI" time="0.019">
+<testsuite name="MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-05T06:29:31" hostname="ASHWINI" time="0.052">
   <properties/>
-  <testcase name="given3NumbersShouldSearchElementOfSequenceAndShouldPassLinkedListResult" classname="MyLinkedListTest" time="0.019"/>
+  <testcase name="given3NumbersShouldSearchElementOfSequenceAndShouldPassLinkedListResult" classname="MyLinkedListTest" time="0.052"/>
   <system-out><![CDATA[My Nodes: 56->30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
