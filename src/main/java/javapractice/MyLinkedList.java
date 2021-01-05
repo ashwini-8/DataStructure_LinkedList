@@ -3,6 +3,7 @@ package javapractice;
 public class MyLinkedList {
     public INode tail;
     public INode head;
+    private static int counter;
 
     public MyLinkedList() {
         this.head = null;
@@ -80,6 +81,7 @@ public class MyLinkedList {
 
     public INode delete(INode index) {
 
+
         if (head.equals(index)) {
             INode node = head;
             head = head.getNext();
@@ -91,6 +93,25 @@ public class MyLinkedList {
         }
         INode temp = tempNode.getNext();
         tempNode.setNext(tempNode.getNext().getNext());
+        decrementCounter();
         return temp;
+
     }
+    private static int getCounter() {
+        return counter;
+    }
+    private static void incrementCounter() {
+        counter++;
+    }
+
+    private void decrementCounter() {
+        counter--;
+    }
+
+    public int size() {
+        return getCounter();
+    }
+
+
+
 }

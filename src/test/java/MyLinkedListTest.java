@@ -116,6 +116,7 @@ public class MyLinkedListTest {
         myLinkedList.append(mySecondNode);
         myLinkedList.append(myThirdNode);
         myLinkedList.delete(myFourthNode);
+        myLinkedList.size();
         myLinkedList.printMyNode();
         boolean result = myLinkedList.head.equals(myfirstNode) &&
                 myLinkedList.head.getNext().equals(mySecondNode) &&
