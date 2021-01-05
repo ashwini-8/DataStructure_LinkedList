@@ -6,3 +6,5 @@ javapractice/MyNode.java
  javapractice.MyNode
 javapractice/MyLinkedList.java
  javapractice.MyLinkedList
+javapractice/MyStack.java
+ javapractice.MyStack
