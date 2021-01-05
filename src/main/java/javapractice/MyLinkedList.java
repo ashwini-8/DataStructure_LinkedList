@@ -75,6 +75,22 @@ public class MyLinkedList {
             if (tempNode.equals(index))
                 return tempNode;
         }
-        return tempNode;
+        return null;
+    }
+
+    public INode delete(INode index) {
+
+        if (head.equals(index)) {
+            INode node = head;
+            head = head.getNext();
+            return node;
+        }
+        INode tempNode= head;
+        while (!tempNode.getNext().equals(index)) {
+            tempNode = tempNode.getNext();
+        }
+        INode temp = tempNode.getNext();
+        tempNode.setNext(tempNode.getNext().getNext());
+        return temp;
     }
 }
