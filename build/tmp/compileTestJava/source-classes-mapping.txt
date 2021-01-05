@@ -2,7 +2,7 @@ MyNodeTest.java
  MyNodeTest
 MyStackTest.java
  MyStackTest
-MyQueueTest.java
- MyQueueTest
 MyLinkedListTest.java
  MyLinkedListTest
+MyQueueTest.java
+ MyQueueTest

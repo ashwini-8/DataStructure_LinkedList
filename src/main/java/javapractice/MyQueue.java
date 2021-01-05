@@ -20,6 +20,11 @@ public class MyQueue {
     }
 
     public void printQueue() {
+        myLinkedList.printMyNode();
+    }
+
+    public void dequeue() {
+        myLinkedList.pop();
     }
 }
 

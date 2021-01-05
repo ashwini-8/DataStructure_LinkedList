@@ -6,7 +6,7 @@ javapractice/MyNode.java
  javapractice.MyNode
 javapractice/MyLinkedList.java
  javapractice.MyLinkedList
-javapractice/MyQueue.java
- javapractice.MyQueue
 javapractice/MyStack.java
  javapractice.MyStack
+javapractice/MyQueue.java
+ javapractice.MyQueue

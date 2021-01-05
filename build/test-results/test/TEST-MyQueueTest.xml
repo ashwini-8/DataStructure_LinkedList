@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyQueueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-05T18:35:47" hostname="ASHWINI" time="0.013">
+<testsuite name="MyQueueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-05T18:45:31" hostname="ASHWINI" time="0.012">
   <properties/>
-  <testcase name="given3NumbersWhenAddedToQueueShouldHaveAddedtoQueue" classname="MyQueueTest" time="0.013"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="given3NumbersWhenPopedFromQueueShouldHaveBeenDeletedFromQueue" classname="MyQueueTest" time="0.012"/>
+  <system-out><![CDATA[My Nodes: 70->30->56
+My Nodes: 30->56
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
