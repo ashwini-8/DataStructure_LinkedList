@@ -1,7 +1,9 @@
-public class MyNode <K>{
+import javapractice.INode;
+
+public abstract class MyNode<K> implements INode<K> {
     private  K key;
     private  MyNode next;
-
+    @Override
     public MyNode getNext() {
         return next;
     }
