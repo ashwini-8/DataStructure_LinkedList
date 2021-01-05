@@ -1,8 +1,8 @@
-javapractice/MyLinkedList.java
- javapractice.MyLinkedList
+MyNode.java
+ MyNode
 javapractice/INode.java
  javapractice.INode
 javapractice/MyNode.java
  javapractice.MyNode
-MyNode.java
- MyNode
+javapractice/MyLinkedList.java
+ javapractice.MyLinkedList
