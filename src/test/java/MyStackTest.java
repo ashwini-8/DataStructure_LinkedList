@@ -19,6 +19,20 @@ public class MyStackTest {
         myStack.printStack();
         INode peek = myStack.peak();
         Assert.assertEquals(myThirdNode,peek);
+    }
 
+    @Test
+    public void given3NumbersWhenPopedToStackShouldHaveLastAddedNode() {
+        MyNode<Integer> myfirstNode = new MyNode<Integer>(70);
+        MyNode<Integer> mySecondNode = new MyNode<Integer>(30);
+        MyNode<Integer> myThirdNode = new MyNode<Integer>(56);
+        MyStack myStack = new MyStack();
+        myStack.push(myfirstNode);
+        myStack.push(mySecondNode);
+        myStack.push(myThirdNode);
+        myStack.printStack();
+        INode pop = myStack.pop();
+        Assert.assertEquals(myThirdNode,pop);
+        
     }
 }
