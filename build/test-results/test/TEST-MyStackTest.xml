@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyStackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-05T18:09:30" hostname="ASHWINI" time="0.02">
+<testsuite name="MyStackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-05T18:11:05" hostname="ASHWINI" time="0.012">
   <properties/>
-  <testcase name="given3NumbersWhenPopedToStackShouldHaveLastAddedNode" classname="MyStackTest" time="0.02"/>
+  <testcase name="given3NumbersWhenPopedToStackShouldHaveLastAddedNode" classname="MyStackTest" time="0.012"/>
   <system-out><![CDATA[My Nodes: 56->30->70
+My Nodes: 30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
